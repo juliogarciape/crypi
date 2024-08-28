@@ -1,10 +1,11 @@
 {
   "name": "crypi",
-  "version": "1.1.0",
-  "description": "A fun security library for NodeJS.",
+  "version": "1.1.1",
+  "description": "A fun security library with easy integration",
   "type": "module",
   "author": "Julio Cesar Garcia <dev.juliogarciape@gmail.com>",
   "homepage": "https://github.com/juliogarciape/crypi#README",
+  "license": "GPL-3.0-only",
   "main": "./src/index.js",
   "scripts": {
     "start": "node ./src/index.js",
