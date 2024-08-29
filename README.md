@@ -1,7 +1,7 @@
 # Crypi :snake:
 
-![NPM Downloads](https://img.shields.io/npm/d18m/crypi?label=Downloads)
-![NPM Version](https://img.shields.io/npm/v/crypi?label=Version)
+![Downloads](https://img.shields.io/npm/dw/crypi?label=Downloads)
+![Version](https://img.shields.io/npm/v/crypi?label=Version)
 ![License](https://img.shields.io/npm/l/crypi?label=License)
 
 **A fun and simple security library for NodeJS with easy integration.**
@@ -39,9 +39,9 @@ console.log('Decrypted text:', decryptedText);
 
 ## Documentation :book:
 
-### Caesar Cipher:
+### > Caesar Cipher:
 
-The Caesar cipher is a substitution cipher used in cryptography that shifts the alphabet by a fixed number of positions. It is one of the simplest and most widely known encryption techniques.
+The Caesar Cipher is a substitution cipher used in cryptography that shifts the alphabet by a fixed number of positions. It is one of the simplest and most widely known encryption techniques.
 
 #### caesarCipher (text: string, shift: number = 3): string
 
@@ -56,6 +56,8 @@ Decrypts a message using the Caesar cipher.
 
 - `text`: The message to be decrypted.
 - `shift`: The number of positions to shift the alphabet. Default is 3.
+
+> Characters not included in the Latin alphabet—such as uppercase letters or accented characters—will be ignored during encryption.
 
 ## Contributing :handshake:
 

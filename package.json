@@ -1,7 +1,7 @@
 {
   "name": "crypi",
-  "version": "1.1.1",
-  "description": "A fun security library with easy integration",
+  "version": "1.1.2",
+  "description": "A fun and simple security library for NodeJS with easy integration.",
   "type": "module",
   "author": "Julio Cesar Garcia <dev.juliogarciape@gmail.com>",
   "homepage": "https://github.com/juliogarciape/crypi#README",
@@ -9,7 +9,7 @@
   "main": "./src/index.js",
   "scripts": {
     "start": "node ./src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "keywords": [
     "Fun Algorithms",
@@ -19,6 +19,7 @@
     "Cryptography",
     "Decryption",
     "Decrypt",
+    "Crypt",
     "Hashing",
     "Algorithms"
   ],
@@ -30,6 +31,9 @@
     "url": "https://github.com/juliogarciape/crypi/issues"
   },
   "engines": {
-    "node": ">=12.0.0"
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }

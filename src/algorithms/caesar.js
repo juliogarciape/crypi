@@ -32,7 +32,17 @@ export const caesarCipher = (text, shift = 3) => {
 	const encryptedText = cleanedText.map((char) => {
 		let newChar = char;
 		if (latinAlphabet.includes(char)) {
-			newChar = latinAlphabet[latinAlphabet.indexOf(char) + shift];
+			let rotatedIndex = latinAlphabet.indexOf(char) + shift;
+
+			if (rotatedIndex >= latinAlphabet.length) {
+				rotatedIndex = rotatedIndex - latinAlphabet.length;
+			}
+
+			if (rotatedIndex < 0) {
+				rotatedIndex = latinAlphabet.length + rotatedIndex;
+			}
+
+			newChar = latinAlphabet[rotatedIndex];
 		}
 		return newChar;
 	});
