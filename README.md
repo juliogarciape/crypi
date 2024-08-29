@@ -57,7 +57,7 @@ Decrypts a message using the Caesar cipher.
 - `text`: The message to be decrypted.
 - `shift`: The number of positions to shift the alphabet. Default is 3.
 
-> Characters not included in the Latin alphabet—such as uppercase letters or accented characters—will be ignored during encryption.
+> During encryption, characters not part of the Latin alphabet—like uppercase letters, accented characters, non-alphanumeric characters, or numbers—will be ignored and retain their original form.
 
 ## Contributing :handshake:
 
