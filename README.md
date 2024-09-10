@@ -4,7 +4,14 @@
 ![Version](https://img.shields.io/npm/v/crypi?label=Version)
 ![License](https://img.shields.io/npm/l/crypi?label=License)
 
-**A fun and simple security library for NodeJS with easy integration.**
+**A fun and simple security library for NodeJS with easy integration**
+
+## Support Us :sparkling_heart:
+
+If you find this project useful and want us to keep improving it, please consider:
+
+- **Star the Repo**: [Give it a star](https://github.com/juliogarciape/crypi) on GitHub to help increase its visibility.
+- **Share**: Let others know about this project.
 
 ## Installation :package:
 
@@ -57,15 +64,15 @@ Decrypts a message using the Caesar cipher.
 - `text`: The message to be decrypted.
 - `shift`: The number of positions to shift the alphabet. Default is 3.
 
-> During encryption, characters not part of the Latin alphabet—like uppercase letters, accented characters, non-alphanumeric characters, or numbers—will be ignored and retain their original form.
+> During encryption, characters not part of the Latin alphabet like uppercase letters, accented characters, non-alphanumeric characters, or numbers will be ignored and retain their original form.
 
 ## Contributing :handshake:
 
-Contributions are welcome! If you have a major change in mind, please open an `issue` to discuss it before submitting a `pull request`.
+Contributions are welcome! If you have a major change in mind, please open an `Issue` to discuss it before submitting a `Pull Request`.
 
 ## License :scroll:
 
-This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the GNU General Public License v3.0 see the [LICENSE](LICENSE) file for details.
 
 ## Contact :email:
 
