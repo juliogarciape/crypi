@@ -1,0 +1,31 @@
+name: 'CI'
+
+on:
+  push:
+    branches:
+      - 'main'
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+
+    strategy:
+      matrix:
+        node-version: [16.x, 18.x, 20.x, 21.x]
+      fail-fast: false
+
+    steps:
+      - name: Chekout code
+        uses: actions/checkout@v3
+      - name: Setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: npm
+      - run: npm ci
+      - run: npm run test
+
