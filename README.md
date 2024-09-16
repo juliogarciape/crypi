@@ -1,9 +1,9 @@
 # Crypi :snake:
 
-![Downloads](https://img.shields.io/npm/dm/crypi?label=Downloads)
+![Downloads](https://img.shields.io/npm/dm/crypi?label=Downloads&color=blue)
 ![Build status](https://img.shields.io/github/actions/workflow/status/juliogarciape/crypi/ci.yml?branch=main&label=Status)
-![Npm Version](https://img.shields.io/npm/v/crypi?label=Version)
-![License](https://img.shields.io/npm/l/crypi?label=License)
+![Npm Version](https://img.shields.io/npm/v/crypi?label=Version&color=yellow)
+![License](https://img.shields.io/npm/l/crypi?label=License&color=red)
 
 **A fun and simple security library for NodeJS with easy integration**
 
